@@ -5,7 +5,7 @@ a logging API based on spdlog
 - $cd myDir
 - myDir$ git clone https://github.com/shunguang/appLog.git
 
-## build in windows visual studion 2019 
+## build in windows VS 2019 
 - go to myDir/appLog/vs_sln/vs2019
 - copy open_appLog_template.bat to open_my_appLog.bat
 - edit open_my_appLog.bat to match your environment
