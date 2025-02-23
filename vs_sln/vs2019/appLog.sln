@@ -1,0 +1,202 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "appLog", "appLog\appLog.vcxproj", "{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spdLog", "spdLog", "{5A1BD770-E44F-46D9-A8AB-15C9A7C28669}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\.gitignore = ..\spdlog\.gitignore
+		..\spdlog\.travis.yml = ..\spdlog\.travis.yml
+		..\spdlog\appveyor.yml = ..\spdlog\appveyor.yml
+		..\spdlog\astyle.sh = ..\spdlog\astyle.sh
+		..\spdlog\CMakeLists.txt = ..\spdlog\CMakeLists.txt
+		..\spdlog\INSTALL = ..\spdlog\INSTALL
+		..\spdlog\LICENSE = ..\spdlog\LICENSE
+		..\spdlog\README.md = ..\spdlog\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bench", "bench", "{D6F630AE-4AFF-4DA7-AF15-1488D41B022F}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\bench\boost-bench-mt.cpp = ..\spdlog\bench\boost-bench-mt.cpp
+		..\spdlog\bench\boost-bench.cpp = ..\spdlog\bench\boost-bench.cpp
+		..\spdlog\bench\easyl.conf = ..\spdlog\bench\easyl.conf
+		..\spdlog\bench\easylogging-bench-mt.cpp = ..\spdlog\bench\easylogging-bench-mt.cpp
+		..\spdlog\bench\easylogging-bench.cpp = ..\spdlog\bench\easylogging-bench.cpp
+		..\spdlog\bench\g2log-async.cpp = ..\spdlog\bench\g2log-async.cpp
+		..\spdlog\bench\glog-bench-mt.cpp = ..\spdlog\bench\glog-bench-mt.cpp
+		..\spdlog\bench\glog-bench.cpp = ..\spdlog\bench\glog-bench.cpp
+		..\spdlog\bench\Makefile.mingw = ..\spdlog\bench\Makefile.mingw
+		..\spdlog\bench\spdlog-async.cpp = ..\spdlog\bench\spdlog-async.cpp
+		..\spdlog\bench\spdlog-bench-mt.cpp = ..\spdlog\bench\spdlog-bench-mt.cpp
+		..\spdlog\bench\spdlog-bench.cpp = ..\spdlog\bench\spdlog-bench.cpp
+		..\spdlog\bench\spdlog-null-async.cpp = ..\spdlog\bench\spdlog-null-async.cpp
+		..\spdlog\bench\utils.h = ..\spdlog\bench\utils.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{AB58365B-441A-4801-9617-127FA780EF71}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\example\bench.cpp = ..\spdlog\example\bench.cpp
+		..\spdlog\example\CMakeLists.txt = ..\spdlog\example\CMakeLists.txt
+		..\spdlog\example\example.cpp = ..\spdlog\example\example.cpp
+		..\spdlog\example\example.sln = ..\spdlog\example\example.sln
+		..\spdlog\example\example.vcxproj = ..\spdlog\example\example.vcxproj
+		..\spdlog\example\Makefile.clang = ..\spdlog\example\Makefile.clang
+		..\spdlog\example\Makefile.mingw = ..\spdlog\example\Makefile.mingw
+		..\spdlog\example\multisink.cpp = ..\spdlog\example\multisink.cpp
+		..\spdlog\example\utils.h = ..\spdlog\example\utils.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{2D7EEB5F-F18A-4E9F-9F9F-B9BCD75C1E5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{13750954-937B-4819-81AB-C3731642DCF1}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\tests\catch.hpp = ..\spdlog\tests\catch.hpp
+		..\spdlog\tests\catch.license = ..\spdlog\tests\catch.license
+		..\spdlog\tests\CMakeLists.txt = ..\spdlog\tests\CMakeLists.txt
+		..\spdlog\tests\errors.cpp = ..\spdlog\tests\errors.cpp
+		..\spdlog\tests\file_helper.cpp = ..\spdlog\tests\file_helper.cpp
+		..\spdlog\tests\file_log.cpp = ..\spdlog\tests\file_log.cpp
+		..\spdlog\tests\includes.h = ..\spdlog\tests\includes.h
+		..\spdlog\tests\install_libcxx.sh = ..\spdlog\tests\install_libcxx.sh
+		..\spdlog\tests\main.cpp = ..\spdlog\tests\main.cpp
+		..\spdlog\tests\registry.cpp = ..\spdlog\tests\registry.cpp
+		..\spdlog\tests\test_macros.cpp = ..\spdlog\tests\test_macros.cpp
+		..\spdlog\tests\test_misc.cpp = ..\spdlog\tests\test_misc.cpp
+		..\spdlog\tests\test_pattern_formatter.cpp = ..\spdlog\tests\test_pattern_formatter.cpp
+		..\spdlog\tests\tests.sln = ..\spdlog\tests\tests.sln
+		..\spdlog\tests\tests.vcxproj = ..\spdlog\tests\tests.vcxproj
+		..\spdlog\tests\tests.vcxproj.filters = ..\spdlog\tests\tests.vcxproj.filters
+		..\spdlog\tests\utils.cpp = ..\spdlog\tests\utils.cpp
+		..\spdlog\tests\utils.h = ..\spdlog\tests\utils.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jni", "jni", "{E617CEB2-0EAE-4B10-BD05-5482F95798D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\example\jni\Android.mk = ..\spdlog\example\jni\Android.mk
+		..\spdlog\example\jni\Application.mk = ..\spdlog\example\jni\Application.mk
+		..\spdlog\example\jni\example.cpp = ..\spdlog\example\jni\example.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "latency", "latency", "{3F265067-FA48-4C78-B06B-91954327D467}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\bench\latency\compare.sh = ..\spdlog\bench\latency\compare.sh
+		..\spdlog\bench\latency\g3log-crush.cpp = ..\spdlog\bench\latency\g3log-crush.cpp
+		..\spdlog\bench\latency\g3log-latency.cpp = ..\spdlog\bench\latency\g3log-latency.cpp
+		..\spdlog\bench\latency\spdlog-latency.cpp = ..\spdlog\bench\latency\spdlog-latency.cpp
+		..\spdlog\bench\latency\utils.h = ..\spdlog\bench\latency\utils.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spdlog", "spdlog", "{DA3827E0-5205-4161-85D4-72D4A90DA37F}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\include\spdlog\async_logger.h = ..\spdlog\include\spdlog\async_logger.h
+		..\spdlog\include\spdlog\common.h = ..\spdlog\include\spdlog\common.h
+		..\spdlog\include\spdlog\formatter.h = ..\spdlog\include\spdlog\formatter.h
+		..\spdlog\include\spdlog\logger.h = ..\spdlog\include\spdlog\logger.h
+		..\spdlog\include\spdlog\spdlog.h = ..\spdlog\include\spdlog\spdlog.h
+		..\spdlog\include\spdlog\tweakme.h = ..\spdlog\include\spdlog\tweakme.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "details", "details", "{45F70E51-E5B0-47D4-AAC1-D07FDBBA5424}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\include\spdlog\details\async_log_helper.h = ..\spdlog\include\spdlog\details\async_log_helper.h
+		..\spdlog\include\spdlog\details\async_logger_impl.h = ..\spdlog\include\spdlog\details\async_logger_impl.h
+		..\spdlog\include\spdlog\details\file_helper.h = ..\spdlog\include\spdlog\details\file_helper.h
+		..\spdlog\include\spdlog\details\log_msg.h = ..\spdlog\include\spdlog\details\log_msg.h
+		..\spdlog\include\spdlog\details\logger_impl.h = ..\spdlog\include\spdlog\details\logger_impl.h
+		..\spdlog\include\spdlog\details\mpmc_bounded_q.h = ..\spdlog\include\spdlog\details\mpmc_bounded_q.h
+		..\spdlog\include\spdlog\details\null_mutex.h = ..\spdlog\include\spdlog\details\null_mutex.h
+		..\spdlog\include\spdlog\details\os.h = ..\spdlog\include\spdlog\details\os.h
+		..\spdlog\include\spdlog\details\pattern_formatter_impl.h = ..\spdlog\include\spdlog\details\pattern_formatter_impl.h
+		..\spdlog\include\spdlog\details\registry.h = ..\spdlog\include\spdlog\details\registry.h
+		..\spdlog\include\spdlog\details\spdlog_impl.h = ..\spdlog\include\spdlog\details\spdlog_impl.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fmt", "fmt", "{8DDBC809-AB3F-4D93-A940-F1ACD3EA2B59}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\include\spdlog\fmt\fmt.h = ..\spdlog\include\spdlog\fmt\fmt.h
+		..\spdlog\include\spdlog\fmt\ostr.h = ..\spdlog\include\spdlog\fmt\ostr.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sinks", "sinks", "{19357E60-983F-447B-A435-389D6E5436A0}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\include\spdlog\sinks\android_sink.h = ..\spdlog\include\spdlog\sinks\android_sink.h
+		..\spdlog\include\spdlog\sinks\ansicolor_sink.h = ..\spdlog\include\spdlog\sinks\ansicolor_sink.h
+		..\spdlog\include\spdlog\sinks\base_sink.h = ..\spdlog\include\spdlog\sinks\base_sink.h
+		..\spdlog\include\spdlog\sinks\dist_sink.h = ..\spdlog\include\spdlog\sinks\dist_sink.h
+		..\spdlog\include\spdlog\sinks\file_sinks.h = ..\spdlog\include\spdlog\sinks\file_sinks.h
+		..\spdlog\include\spdlog\sinks\msvc_sink.h = ..\spdlog\include\spdlog\sinks\msvc_sink.h
+		..\spdlog\include\spdlog\sinks\null_sink.h = ..\spdlog\include\spdlog\sinks\null_sink.h
+		..\spdlog\include\spdlog\sinks\ostream_sink.h = ..\spdlog\include\spdlog\sinks\ostream_sink.h
+		..\spdlog\include\spdlog\sinks\sink.h = ..\spdlog\include\spdlog\sinks\sink.h
+		..\spdlog\include\spdlog\sinks\stdout_sinks.h = ..\spdlog\include\spdlog\sinks\stdout_sinks.h
+		..\spdlog\include\spdlog\sinks\syslog_sink.h = ..\spdlog\include\spdlog\sinks\syslog_sink.h
+		..\spdlog\include\spdlog\sinks\wincolor_sink.h = ..\spdlog\include\spdlog\sinks\wincolor_sink.h
+		..\spdlog\include\spdlog\sinks\windebug_sink.h = ..\spdlog\include\spdlog\sinks\windebug_sink.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bundled", "bundled", "{1360BE30-887D-443B-9589-9546DEE80458}"
+	ProjectSection(SolutionItems) = preProject
+		..\spdlog\include\spdlog\fmt\bundled\format.cc = ..\spdlog\include\spdlog\fmt\bundled\format.cc
+		..\spdlog\include\spdlog\fmt\bundled\format.h = ..\spdlog\include\spdlog\fmt\bundled\format.h
+		..\spdlog\include\spdlog\fmt\bundled\LICENSE.rst = ..\spdlog\include\spdlog\fmt\bundled\LICENSE.rst
+		..\spdlog\include\spdlog\fmt\bundled\ostream.cc = ..\spdlog\include\spdlog\fmt\bundled\ostream.cc
+		..\spdlog\include\spdlog\fmt\bundled\ostream.h = ..\spdlog\include\spdlog\fmt\bundled\ostream.h
+		..\spdlog\include\spdlog\fmt\bundled\posix.cc = ..\spdlog\include\spdlog\fmt\bundled\posix.cc
+		..\spdlog\include\spdlog\fmt\bundled\posix.h = ..\spdlog\include\spdlog\fmt\bundled\posix.h
+		..\spdlog\include\spdlog\fmt\bundled\printf.cc = ..\spdlog\include\spdlog\fmt\bundled\printf.cc
+		..\spdlog\include\spdlog\fmt\bundled\printf.h = ..\spdlog\include\spdlog\fmt\bundled\printf.h
+		..\spdlog\include\spdlog\fmt\bundled\time.h = ..\spdlog\include\spdlog\fmt\bundled\time.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{121EAD80-F66B-458A-8145-C56685514DF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3} = {45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Debug|x64.ActiveCfg = Debug|x64
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Debug|x64.Build.0 = Debug|x64
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Debug|x86.Build.0 = Debug|Win32
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Release|x64.ActiveCfg = Release|x64
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Release|x64.Build.0 = Release|x64
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Release|x86.ActiveCfg = Release|Win32
+		{45730D2F-4BA0-46A5-9AC7-884C1AF8BBE3}.Release|x86.Build.0 = Release|Win32
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Debug|x64.ActiveCfg = Debug|x64
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Debug|x64.Build.0 = Debug|x64
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Debug|x86.Build.0 = Debug|Win32
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Release|x64.ActiveCfg = Release|x64
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Release|x64.Build.0 = Release|x64
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Release|x86.ActiveCfg = Release|Win32
+		{121EAD80-F66B-458A-8145-C56685514DF1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6F630AE-4AFF-4DA7-AF15-1488D41B022F} = {5A1BD770-E44F-46D9-A8AB-15C9A7C28669}
+		{AB58365B-441A-4801-9617-127FA780EF71} = {5A1BD770-E44F-46D9-A8AB-15C9A7C28669}
+		{2D7EEB5F-F18A-4E9F-9F9F-B9BCD75C1E5E} = {5A1BD770-E44F-46D9-A8AB-15C9A7C28669}
+		{13750954-937B-4819-81AB-C3731642DCF1} = {5A1BD770-E44F-46D9-A8AB-15C9A7C28669}
+		{E617CEB2-0EAE-4B10-BD05-5482F95798D1} = {AB58365B-441A-4801-9617-127FA780EF71}
+		{3F265067-FA48-4C78-B06B-91954327D467} = {D6F630AE-4AFF-4DA7-AF15-1488D41B022F}
+		{DA3827E0-5205-4161-85D4-72D4A90DA37F} = {2D7EEB5F-F18A-4E9F-9F9F-B9BCD75C1E5E}
+		{45F70E51-E5B0-47D4-AAC1-D07FDBBA5424} = {DA3827E0-5205-4161-85D4-72D4A90DA37F}
+		{8DDBC809-AB3F-4D93-A940-F1ACD3EA2B59} = {DA3827E0-5205-4161-85D4-72D4A90DA37F}
+		{19357E60-983F-447B-A435-389D6E5436A0} = {DA3827E0-5205-4161-85D4-72D4A90DA37F}
+		{1360BE30-887D-443B-9589-9546DEE80458} = {8DDBC809-AB3F-4D93-A940-F1ACD3EA2B59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D51129-B1AB-4629-93F0-8F0C27588825}
+	EndGlobalSection
+EndGlobal

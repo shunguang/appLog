@@ -1,0 +1,16 @@
+## Ignore Visual Studio temporary files, build results, and
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.bak
+
+# ignore any folders under the repo folder tree
+**/build/
+**/x64/
+**/x86/
+**/.vs/
+**/Debug/
+**/Release/
+
