@@ -89,7 +89,6 @@ AppLog* AppLog::getInstance()
 
 AppLog::AppLog()
 {
-	std::lock_guard<std::mutex> lock(m_instance_mutex);
 	AppLog::m_setup_complete = false;
 }
 
