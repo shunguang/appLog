@@ -41,6 +41,7 @@
 #define APP_INFO(fmt, ...)  AppLog::getInstance()->logMsg(2, __FILE__, __LINE__, fmt, ##__VA_ARGS__)
 #define APP_WARN(fmt, ...)  AppLog::getInstance()->logMsg(3, __FILE__, __LINE__, fmt, ##__VA_ARGS__)
 #define APP_ERR(fmt, ...)   AppLog::getInstance()->logMsg(4, __FILE__, __LINE__, fmt, ##__VA_ARGS__)
+#define APP_CRITICAL(fmt, ...)   AppLog::getInstance()->logMsg(5, __FILE__, __LINE__, fmt, ##__VA_ARGS__)
 
 //global API functions
 void setupAppLog(const std::string& logger_file_path, const std::string& logger_name, 
